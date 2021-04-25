@@ -53,7 +53,7 @@
 
     F. True. Boolean(2) = true.
 15. == checks equality with type conversion, while === checks the equality without type conversion.
-16. [Q16](part1b-qiestion16.js)
+16. [Q16](https://github.com/ycc0571/sp21-cse110-lab4/blob/master/part1/part1b-question16.js)
 17. [2, 4 ,6]. In function modifyArray, for each element in the input array, it pushes the result of calling doSomething on that element. Function doSomething return 2 times the input, so the new array newArr contains every element in the input array multiplied by 2. Since the for loop goes from index 0 to index length - 1, the elements in newArr has the same sequence as the input array.
-18. [Q18](part1b-qiestion18.js)
+18. [Q18](https://github.com/ycc0571/sp21-cse110-lab4/blob/master/part1/part1b-question18.js)
 19. It will print one 1 and one 4 while printing 3s without intervals and printing a 2 every second.
