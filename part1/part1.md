@@ -56,4 +56,12 @@
 16. [Q16](https://github.com/ycc0571/sp21-cse110-lab4/blob/master/part1/part1b-question16.js)
 17. [2, 4 ,6]. In function modifyArray, for each element in the input array, it pushes the result of calling doSomething on that element. Function doSomething return 2 times the input, so the new array newArr contains every element in the input array multiplied by 2. Since the for loop goes from index 0 to index length - 1, the elements in newArr has the same sequence as the input array.
 18. [Q18](https://github.com/ycc0571/sp21-cse110-lab4/blob/master/part1/part1b-question18.js)
-19. It will print one 1 and one 4 while printing 3s without intervals and printing a 2 every second.
+19. 1
+    
+    4
+
+    3
+
+    2
+    
+    The function setTimeout(n, m) will execute the first argument m milliseconds later. If m = 0, the first argument will be executed the next event cycle. So console.log(1) and console.log(4) will be executed in order before the other 2 lines. Then, console.log(3) get executed immedietly when the next event cycle comes, and 1 second later console.log(2) get executed.
