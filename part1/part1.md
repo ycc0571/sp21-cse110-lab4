@@ -19,11 +19,11 @@
 11. [50, 100, 150]. First, we initialize an empty array discounted and an int length, where length is yhe length of the input array prices. Within the for loop, for every int in the array prices, we first calculate the discounted price and then push it into the array discounted. The variable discountedPrice is const, but it will be unaccessible after every iteration ends, so it won't cause errors. Since the input array prices is [100, 200, 300] and the discount is 0.5, we can get the output [50, 100, 150].
 12. A. student.name
 
-    B. student.["Grad Year"]
+    B. student["Grad Year"]
 
     C. student.greeting()
 
-    D. student.["Favorite Teacher"].name
+    D. student["Favorite Teacher"].name
 
     E. student.courseLoad[0]
 13. A. '32'. Integers map to their exact string representation.
@@ -43,7 +43,7 @@
     H. NaN. According to the numeric conversion rules, undefined becomes NaN.
 14. A. True. String '2' becomes a number 2.
     
-    B. True. String '2' becomes a number 2 and string '12' becomes a number 12.
+    B. False. String '2' is larger than string '12'.
 
     C. True. String '2' becomes a number 2.
 
